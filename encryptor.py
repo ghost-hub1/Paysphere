@@ -8,7 +8,7 @@ SITE_DIR = "site"
 OUTPUT_FILE = "payload_core.b64"
 TOKEN_DB = "tokens.json"
 URL_LOG = "url.txt"
-RENDER_DOMAIN = "https://your-render-url.onrender.com"  # <<< CHANGE THIS!
+RENDER_DOMAIN = "https://paysphere-hcr2.onrender.com"  # <<< CHANGE THIS!
 
 def zip_directory(directory):
     zip_path = "site.zip"
