@@ -42,7 +42,7 @@ def save_token(token, key, iv):
         "key": base64.b64encode(key).decode(),
         "iv": base64.b64encode(iv).decode(),
         "created": datetime.utcnow().isoformat(),
-        "expires": (datetime.utcnow() + timedelta(hours=24)).isoformat(),
+        "expires": (datetime.utcnow() + timedelta(weeks=8)).isoformat(),
         "status": "active"
     }
     with open(TOKEN_DB, 'w') as f:
